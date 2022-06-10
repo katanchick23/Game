@@ -3,7 +3,8 @@ using UnityEngine.UI;
 
 public class Game : MonoBehaviour
 {
-    [Header("Timer")]
+    [Header("Timer")] 
+    [SerializeField] private bool _timerIsOn;
     [SerializeField] private float _timerValue;
     [SerializeField] private Text _timerView;
 
